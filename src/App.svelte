@@ -62,6 +62,13 @@
     color: #07FC07;
   }
 
+  @media (max-width: 800px) {
+    a:active, a:link, a:visited {
+    color: #07FC07;
+    text-decoration: none;
+  }
+  }
+
   footer {
     background-color: #282828;
     text-align: center;
