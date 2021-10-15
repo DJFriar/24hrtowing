@@ -4,7 +4,9 @@
 
 <main>
   <div class="uk-container">
-    <img src="/24HourTowing-Logo.png" alt="24 Hour Towing Logo">
+    <div class="tow-logo">
+      <img src="/24HourTowing-Logo.png" alt="24 Hour Towing Logo">
+    </div>
     <h3>Serving the DFW Metroplex and surrounding areas.</h3>
     <h1>(469)<br/>
     NOW-3TOW</h1>
@@ -13,7 +15,8 @@
 </main>
 
 <footer>
-  Site created & hosted by <a href="https://www.ambitiousnerds.com" target="_blank">ambitiousNerds</a>
+  &copy; 2021 24 Hr Towing, LLC <br/> 
+  Site Design & Hosting by <a href="https://www.ambitiousnerds.com" target="_blank">ambitiousNerds</a>
 </footer>
 
 <style>
@@ -21,13 +24,15 @@
     font-family: 'Lato', sans-serif;
     background-color: #282828;
 		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
 	}
 
+  .tow-logo {
+    display: flex;
+    justify-content: center;
+  }
+
   img {
-    max-width: 400px;
+    max-width: 350px;
   }
 
 	h1 {
@@ -48,6 +53,7 @@
 	}
 
   h3 {
+    font-family: 'Lato', sans-serif;
 		color: #07FC07;
 		font-size: 1em;
 		font-weight: 200;
@@ -61,12 +67,22 @@
     background-color: #282828;
     text-align: center;
     color: #07FC07;
-    font-size: .4em;
+    font-size: .5em;
+    font-weight: 100;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    position: fixed;
+    height: 35px;
   }
 
-	@media (min-width: 640px) {
+	@media (max-width: 800px) {
 		main {
 			max-width: none;
 		}
+
+    h1 {
+      font-size: 3em;
+    }
 	}
 </style>
