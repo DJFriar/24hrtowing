@@ -7,8 +7,7 @@
     <img src="/24HourTowing-Logo.png" alt="24 Hour Towing Logo">
   </div>
   <h3>Serving the DFW Metroplex and surrounding areas.</h3>
-  <h1>(469)<br/>
-  NOW-3TOW</h1>
+  <h1><a href="tel:+1-469-669-3869">(469)<br/>NOW-3TOW</a></h1>
   <h2><a href="mailto:{email}">Send us an email!</a></h2>
 </main>
 
