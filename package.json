@@ -1,7 +1,7 @@
 {
   "name": "24hrtowing",
   "version": "1.0.0",
-  "description": "24 Hour Towing website",
+  "private":true,
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -19,15 +19,5 @@
   },
   "dependencies": {
     "sirv-cli": "^1.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DJFriar/24hrtowing.git"
-  },
-  "author": "ambitiousNerds",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DJFriar/24hrtowing/issues"
-  },
-  "homepage": "https://github.com/DJFriar/24hrtowing#readme"
+  }
 }
