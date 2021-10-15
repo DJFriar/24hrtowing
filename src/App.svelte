@@ -7,7 +7,7 @@
   <img src="/24HourTowing-Logo.png" alt="24 Hour Towing Logo">
   <h3>Serving the DFW Metroplex and surrounding areas.</h3>
 	<h1>{phoneNum}</h1>
-  <h2><a href="mailto:{email}">{email}</a></h2>
+  <h2><a href="mailto:{email}">Send us an email!</a></h2>
 </main>
 
 <footer>
@@ -54,7 +54,7 @@
     background-color: #282828;
     text-align: center;
     color: #07FC07;
-    font-size: .8em;
+    font-size: .4em;
   }
 
 	@media (min-width: 640px) {
