@@ -3,15 +3,13 @@
 </script>
 
 <main>
-  <div class="uk-container">
-    <div class="tow-logo">
-      <img src="/24HourTowing-Logo.png" alt="24 Hour Towing Logo">
-    </div>
-    <h3>Serving the DFW Metroplex and surrounding areas.</h3>
-    <h1>(469)<br/>
-    NOW-3TOW</h1>
-    <h2><a href="mailto:{email}">Send us an email!</a></h2>
+  <div class="tow-logo">
+    <img src="/24HourTowing-Logo.png" alt="24 Hour Towing Logo">
   </div>
+  <h3>Serving the DFW Metroplex and surrounding areas.</h3>
+  <h1>(469)<br/>
+  NOW-3TOW</h1>
+  <h2><a href="mailto:{email}">Send us an email!</a></h2>
 </main>
 
 <footer>
@@ -24,6 +22,8 @@
     font-family: 'Lato', sans-serif;
     background-color: #282828;
 		text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
 	}
 
   .tow-logo {
@@ -69,11 +69,8 @@
     color: #07FC07;
     font-size: .5em;
     font-weight: 100;
-    bottom: 0;
-    margin: auto;
+    margin-top: auto;
     width: 100%;
-    position: fixed;
-    height: 35px;
   }
 
 	@media (max-width: 800px) {
