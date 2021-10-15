@@ -1,13 +1,15 @@
 <script>
-	export let phoneNum;
   export let email;
 </script>
 
 <main>
-  <img src="/24HourTowing-Logo.png" alt="24 Hour Towing Logo">
-  <h3>Serving the DFW Metroplex and surrounding areas.</h3>
-	<h1>{phoneNum}</h1>
-  <h2><a href="mailto:{email}">Send us an email!</a></h2>
+  <div class="uk-container">
+    <img src="/24HourTowing-Logo.png" alt="24 Hour Towing Logo">
+    <h3>Serving the DFW Metroplex and surrounding areas.</h3>
+    <h1>(469)<br/>
+    NOW-3TOW</h1>
+    <h2><a href="mailto:{email}">Send us an email!</a></h2>
+  </div>
 </main>
 
 <footer>
@@ -16,6 +18,7 @@
 
 <style>
 	main {
+    font-family: 'Lato', sans-serif;
     background-color: #282828;
 		text-align: center;
 		padding: 1em;
@@ -28,15 +31,19 @@
   }
 
 	h1 {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
 		color: #07FC07;
 		text-transform: uppercase;
 		font-size: 4em;
-		font-weight: 200;
+		font-weight: 400;
 	}
 
   h2 {
+    font-family: 'Lato', sans-serif;
 		color: #07FC07;
 		font-size: 2em;
+    font-style: italic;
 		font-weight: 200;
 	}
 
